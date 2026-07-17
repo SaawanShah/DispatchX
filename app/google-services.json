@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "507132487688",
+    "project_id": "dispatchx-dab40",
+    "storage_bucket": "dispatchx-dab40.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507132487688:android:7150e70f5dc5c6d05349bd",
+        "android_client_info": {
+          "package_name": "com.clickandsave.saawanshah.dispatchnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507132487688-jq9opr5e2rlbk5rtt18h4j9o27d3e3qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADjcWD4K1jJAkPdiqnZvy18XTftmSf5YM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507132487688-jq9opr5e2rlbk5rtt18h4j9o27d3e3qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
