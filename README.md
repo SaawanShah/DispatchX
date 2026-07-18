@@ -98,11 +98,11 @@ The project demonstrates modern Android development practices including Firebase
 
 | Splash Screen | Login Screen |
 |---------------|--------------|
-| <img src="[screenshots/splash.png](https://github.com/SaawanShah/DispatchX/blob/main/screenshots/splash.png)" width="250"/> | <img src="[screenshots/login.png](https://github.com/SaawanShah/DispatchX/blob/main/screenshots/login.png)" width="250"/> |
+| <img src="screenshots/splash.png" width="250"/> | <img src="screenshots/login.png" width="250"/> |
 
 | Home Screen | Profile Screen |
 |-------------|----------------|
-| <img src="[screenshots/home.png](https://github.com/SaawanShah/DispatchX/blob/main/screenshots/home.png)" width="250"/> | <img src="[screenshots/profile.png](https://github.com/SaawanShah/DispatchX/blob/main/screenshots/profile.png)" width="250"/> |
+| <img src="screenshots/home.png" width="250"/> | <img src="screenshots/profile.png" width="250"/> |
 
 ---
 
