@@ -1,210 +1,190 @@
 # 📰 DispatchX
 
-DispatchX is a modern Android News Application built using **Kotlin**, **MVVM Architecture**, **Coroutines**, and **NewsData.io API**. The application provides real-time news across multiple categories with a clean Material Design UI, Firebase Authentication, and efficient offline-friendly architecture.
+<p align="center">
+  <h3 align="center">Modern Android News Application</h3>
+  <p align="center">
+    Built with Kotlin, MVVM, Coroutines, Retrofit & Firebase Authentication
+  </p>
+</p>
+
+<p align="center">
+
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![MVVM](https://img.shields.io/badge/MVVM-Architecture-blue?style=for-the-badge)
+![Retrofit](https://img.shields.io/badge/Retrofit-REST%20API-orange?style=for-the-badge)
+![Coroutines](https://img.shields.io/badge/Coroutines-Asynchronous-purple?style=for-the-badge)
+![Firebase](https://img.shields.io/badge/Firebase-Authentication-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Material3](https://img.shields.io/badge/Material%203-UI-1976D2?style=for-the-badge)
+
+</p>
 
 ---
 
-## 📱 Screenshots
+# 📖 About
 
-| Home | Search | Article |
-|------|--------|---------|
-| ![](screenshots/home.png) | ![](screenshots/search.png) | ![](screenshots/details.png) |
+DispatchX is a modern Android News Application developed using **Kotlin** and **MVVM Architecture**. The application delivers real-time news from multiple categories using REST APIs while providing a clean, responsive, and user-friendly interface.
+
+The project demonstrates modern Android development practices including Firebase Authentication, Coroutines, Retrofit networking, Repository Pattern, Navigation Component, and Material Design 3.
 
 ---
 
 # ✨ Features
 
-- 📰 Latest News Headlines
-- 🔍 Search News by Keyword
-- 📂 Category-wise News
-- 🔥 Breaking News Section
-- ❤️ Save Favorite Articles
-- 🌐 Real-Time News Updates
-- 👤 Firebase Authentication
-- 📱 Material Design UI
-- ⚡ Fast Loading using Coroutines
-- 📖 Detailed News Screen
-- 🌙 Responsive UI
-- 📡 REST API Integration
+- 🔐 Firebase Authentication
+- 🔑 Google Sign-In
+- 🚀 Splash Screen
+- 👤 User Session Management
+- 📰 Breaking News
+- 📚 Category-wise News
+- 🔍 Search News
+- ⭐ Bookmark News
+- 👤 Profile Screen
+- 🌐 REST API Integration
+- ⚡ Kotlin Coroutines
+- 🏗 MVVM Architecture
+- 📦 Repository Pattern
+- 🖼 Glide Image Loading
+- 📄 RecyclerView
+- 🧭 Navigation Component
+- 🎨 Material Design 3
+- ❌ Error Handling
+- ⏳ Loading Indicator
 
 ---
 
 # 🛠 Tech Stack
 
 - Kotlin
+- Android SDK
 - MVVM Architecture
-- Android Jetpack
-- Navigation Component
 - ViewModel
 - LiveData
 - Coroutines
 - Retrofit
 - Gson
-- Glide
 - Firebase Authentication
+- Google Sign-In
+- Glide
 - RecyclerView
-- Material Design Components
+- Navigation Component
 - View Binding
+- Material Design 3
 - Git & GitHub
-
----
-
-# 📂 Project Structure
-
-```
-DispatchX
-│
-├── data
-│   ├── api
-│   ├── repository
-│   └── model
-│
-├── ui
-│   ├── auth
-│   ├── home
-│   ├── search
-│   ├── details
-│   └── adapter
-│
-├── viewmodel
-│
-├── utils
-│
-└── MainActivity
-```
-
----
-
-# 📡 API
-
-News is fetched using the **NewsData.io API**.
-
-Example Endpoint
-
-```
-https://newsdata.io/api/1/latest
-```
-
----
-
-# 🚀 Getting Started
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/SaawanShah/DispatchX.git
-```
-
-Open the project in Android Studio.
-
----
-
-### Add API Key
-
-Create your API key from NewsData.io and add it to:
-
-```
-Constants.kt
-```
-
-```kotlin
-const val API_KEY = "YOUR_API_KEY"
-```
-
----
-
-### Build & Run
-
-- Sync Gradle
-- Run the application on an emulator or Android device.
+- Gradle
 
 ---
 
 # 🏗 Architecture
 
-The application follows **MVVM Architecture**.
-
 ```
-UI (Fragment)
-      │
-      ▼
- ViewModel
-      │
-      ▼
- Repository
-      │
-      ▼
- Retrofit API
-      │
-      ▼
- NewsData API
+           UI (Fragments)
+                  │
+                  ▼
+            ViewModel
+                  │
+                  ▼
+            Repository
+                  │
+                  ▼
+          Retrofit Network
+                  │
+                  ▼
+              News API
 ```
 
 ---
 
-# 📚 Libraries Used
+# 📸 Screenshots
 
-- Retrofit
-- Coroutines
-- Glide
-- Firebase Auth
-- Navigation Component
-- Lifecycle
-- RecyclerView
-- Material Components
+| Splash Screen | Login Screen |
+|---------------|--------------|
+| <img src="[screenshots/splash.png](https://github.com/SaawanShah/DispatchX/blob/main/screenshots/splash.png)" width="250"/> | <img src="[screenshots/login.png](https://github.com/SaawanShah/DispatchX/blob/main/screenshots/login.png)" width="250"/> |
 
----
-
-# 🎯 Future Improvements
-
-- Bookmark with Room Database
-- Dark Mode
-- Offline Reading
-- Push Notifications
-- Pagination
-- Profile Screen
-- Multiple Languages
-- Share Articles
-- Settings Screen
+| Home Screen | Profile Screen |
+|-------------|----------------|
+| <img src="[screenshots/home.png](https://github.com/SaawanShah/DispatchX/blob/main/screenshots/home.png)" width="250"/> | <img src="[screenshots/profile.png](https://github.com/SaawanShah/DispatchX/blob/main/screenshots/profile.png)" width="250"/> |
 
 ---
 
-# 👨‍💻 Developer
+# 🚀 Getting Started
 
-**Saawan Shah**
+### Clone the repository
 
-Android Developer
+```bash
+git clone https://github.com/SaawanShah/DispatchX.git
+```
 
-- Kotlin
-- MVVM
-- Coroutines
-- Retrofit
-- Firebase
-- REST APIs
-- Material Design
+### Open the project
 
-GitHub:
-https://github.com/SaawanShah
+Open the project using **Android Studio**.
 
-LinkedIn:
-https://www.linkedin.com/in/saawan_shah_tech/
+### Sync Gradle
+
+Allow Gradle to download all required dependencies.
+
+### Configure Firebase
+
+1. Create your own Firebase project.
+2. Download `google-services.json`.
+3. Place it inside:
+
+```
+app/google-services.json
+```
+
+### Configure News API
+
+Add your News API key inside:
+
+```
+NewsConstants.kt
+```
+
+### Run the application
+
+Build and run the project on an emulator or Android device.
+
+---
+
+# 🔮 Future Improvements
+
+- 🌙 Dark Mode
+- ❤️ Room Database for Offline Bookmarks
+- 🔔 Push Notifications
+- 📄 Pagination
+- 🌍 Multi-language Support
+- 📥 Offline Reading
 
 ---
 
 # 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome.
+Contributions are welcome!
 
-Feel free to fork this repository and submit a pull request.
-
----
-
-# ⭐ Support
-
-If you found this project helpful, don't forget to give it a ⭐ on GitHub.
+1. Fork this repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
 
 ---
 
-## 📄 License
+# 👨‍💻 Developer
 
-This project is licensed under the MIT License.
+## Saawan Shah
+
+Android Developer
+
+🔗 GitHub  
+https://github.com/SaawanShah
+
+💼 LinkedIn  
+https://www.linkedin.com/in/saawan_shah_tech
+
+---
+
+<p align="center">
+
+⭐ **If you like this project, don't forget to Star the repository!** ⭐
+
+</p>
